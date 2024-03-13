@@ -164,7 +164,7 @@
         });
     }
     $(document).ready(function(){
-        console.log(<?php echo ($monthlytotalamount)?>);
+       
         Swal.fire({
           title: "<?php echo ($monthlytotalamount) ?> ",
           showDenyButton: true,
